@@ -6,41 +6,15 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A modern, full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features real-time inventory management, secure payments, and an intuitive admin dashboard.",
+      title: "StackResume.ai",
+      description:
+        "AI-powered resume analyzer that scores resumes against job descriptions, provides improvement suggestions, and highlights matching skills.",
       image: "/api/placeholder/600/400",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Redis"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example",
-      featured: true
+      technologies: ["Next.js", "TypeScript", "OpenAI", "Tailwind CSS", "Vercel"],
+      liveUrl: "https://ai-resume-analyzer-careersimplified.vercel.app/",
+      githubUrl: "https://github.com/striver-24/ai-resume-analyzer",
+      featured: true,
     },
-    {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "/api/placeholder/600/400",
-      technologies: ["Next.js", "TypeScript", "Prisma", "WebSocket", "Tailwind"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example",
-      featured: true
-    },
-    {
-      title: "Weather Dashboard",
-      description: "A beautiful weather dashboard that provides detailed forecasts, interactive maps, and personalized weather insights for multiple locations.",
-      image: "/api/placeholder/600/400",
-      technologies: ["React", "D3.js", "OpenWeather API", "Chart.js"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example",
-      featured: false
-    },
-    {
-      title: "Portfolio Website",
-      description: "A responsive portfolio website showcasing creative projects with smooth animations and an elegant design system.",
-      image: "/api/placeholder/600/400",
-      technologies: ["React", "Framer Motion", "Tailwind CSS", "Vite"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example",
-      featured: false
-    }
   ];
 
   return (
