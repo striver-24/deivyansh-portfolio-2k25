@@ -6,6 +6,25 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      title: "Mindspace",
+      description:
+        "A GenAI-powered mental health companion that provides personalized support, mindfulness exercises, and emotional wellbeing tracking.",
+      image: "/api/placeholder/600/400",
+      technologies: ["Next.js", "TypeScript", "GenAI", "Tailwind CSS", "Vercel"],
+      liveUrl: "https://mindspace-genai.vercel.app/",
+      githubUrl: "https://github.com/striver-24/GenAI-Hackathon",
+      featured: true,
+    },
+    {
+      title: "MedAppointAI",
+      description:
+        "An AI-powered medical appointment scheduling and management system that streamlines the booking process and enhances patient care.",
+      image: "/api/placeholder/600/400",
+      technologies: ["React", "AI/ML", "Node.js", "Express", "MongoDB"],
+      githubUrl: "https://github.com/striver-24/MedAppointAgent",
+      featured: true,
+    },
+    {
       title: "StackResume.ai",
       description:
         "AI-powered resume analyzer that scores resumes against job descriptions, provides improvement suggestions, and highlights matching skills.",
